@@ -181,3 +181,27 @@ body {
   color: white;
   font-size: 30px;
 }
+
+/* CONTATO */
+
+#botao-contato {
+  color: white;
+  font-size: 4em;
+}
+
+#botao-contato:hover {
+  transform: scale(1.01);
+  color: #292795; 
+}
+
+#icone-contatos {
+  max-height: 300px;
+  background: rgb(159, 130, 216);
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  padding: 2em;
+}
+
+#contato h1{ 
+  padding-top: 20%;
+}
