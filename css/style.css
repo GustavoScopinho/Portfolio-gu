@@ -14,3 +14,35 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {   
   background-color: rgb(201, 194, 231);  
 }
+
+/* Barra de navegação */
+nav.navbar {
+  background: linear-gradient(to right, black, #13131F);
+  font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
+  border-bottom: solid 1px #7c26f8;
+}
+
+#icone-barra{
+  color: #7c26f8  
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  padding-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(118, 48, 179);
+}
+
+.divisor {
+  width: 1px;
+  background: white;
+  margin: 12px 15px;
+}
+
+ /* Home */
+body {
+  background: #12121d;
+}
