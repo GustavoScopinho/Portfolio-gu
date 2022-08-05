@@ -46,3 +46,53 @@ nav.navbar {
 body {
   background: #12121d;
 }
+
+#home p, h4 {
+  color: rgb(201, 194, 231);
+  font-size: 2.0em;
+}
+
+#home h3 {
+  color: white;
+  line-height: 52%;
+  padding-top: 180px;
+  font-size: 2em;
+}
+
+#home h1 {
+ color: #292795;
+ font-size: 3.2em;
+}
+
+.borda-redonda{
+  margin-top: 5em;
+  border-radius: 50% 25%;
+  box-shadow: 50px -10px 25px #7e26f80b; 
+  margin-left: 10em;
+}
+   
+.borda-redonda:hover{
+  transform: scale(1.01);
+  box-shadow: 0 0 30px #7e26f895;
+}
+
+.btn-custom {
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  transition: background 0.4s, color 0.4s;
+  padding: 8px 20px;
+}
+
+.btn-branco {
+  margin-top: 10px;
+  border: 2px solid #292795;
+  transition-duration: 1s; 
+}
+
+.btn-branco:hover {
+  background: linear-gradient(to bottom, black, #292795);
+  color: white;
+  transform: scale(1.02)
+}
