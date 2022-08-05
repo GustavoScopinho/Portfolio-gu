@@ -96,3 +96,61 @@ body {
   color: white;
   transform: scale(1.02)
 }
+
+/* Sobre mim */
+
+#sobre-mim, #habilidades, #contato {
+  background-color: rgb(159, 130, 216);
+}
+
+.cor-letra {
+  color: #292795;  
+}
+
+#sobre-mim #iconeskill a {
+  color: white;
+  font-size: 4em;
+  width: 110px;
+}
+
+#sobre-mim #iconeskill, a i:hover{
+  color: #292795; 
+  transform: scale(1.10);
+}
+
+#sobre-mim {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#sobre-mim h1 {
+  font-size: 50px;
+}
+
+#sobre-mim #texto-sobremim{
+  background: rgb(159, 130, 216);
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  padding: 2em 2em 2em 2em;
+}
+
+#sobre-mim #texto-sobremim:hover {
+  transform: scale(1.01)
+ }
+
+#sobre-mim #habilidades {
+  background: rgb(159, 130, 216);
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  padding: 2em 2em 2em 2em;
+  margin-top: 5em;
+}
+
+#sobre-mim #habilidades:hover {
+  transform: scale(1.01)
+}
+
+#sobre-mim p {
+  font-size: 25px;
+  color: white;
+}
