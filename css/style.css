@@ -241,3 +241,132 @@ footer ul li a:hover{
   color: #7c26f8;
   transform: scale(3)
 }
+
+/* Media devices */
+@media (max-width: 519.98px){
+  .borda-redonda{
+    margin-top: 2vh;
+    margin-left: 13vw;
+    width: 260px;
+  }
+
+  #home h1 {
+    font-size: 2.2em;
+  }
+
+  #home h3, h4 {
+    font-size: 1.5em;
+    margin-top: 0em;
+  }
+
+  #home h3{
+    margin-top: -2em;
+  }
+
+  #sobre-mim #texto-sobremim, #habilidades{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-right: -5em;
+  }
+}
+
+ @media (min-width: 520px) and (max-width: 575.98px) {
+  #botao-contato {
+    font-size: 2em;
+    display: flex;
+  }
+
+  #sobre-mim h1 {
+    font-size: 2em;
+  }
+
+  #sobre-mim #iconeskill a {
+    font-size: 2.6em;
+  }
+
+  #icon-js {
+    margin-right: 4.6%;
+  }
+  
+  #sobre-mim #texto-sobremim, #habilidades{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-right: -5em;
+  }
+
+  .borda-redonda{
+    margin-top: 3vh;
+    margin-left: 5vw;
+    width: 300px;
+  }
+
+  #home h1 {
+    color: #292795;
+    font-size: 2.2em;       
+  }
+
+  #home p, h4 {
+    color: rgb(201, 194, 231);
+    font-size: 1.5em;  
+  }
+
+  #home h3 {
+    color: white;
+    font-size: 1.6em;
+    padding-top: 0;
+    margin-top: 50vh;
+  }
+} 
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #botao-contato {
+    font-size: 2.5em;
+  }
+
+  #sobre-mim #iconeskill a {
+    font-size: 2em;
+    padding: 0;
+  }
+
+  #foto-gu{
+    margin-left: 8em;
+  }
+
+  .borda-redonda{
+    margin-top: 0em;
+    margin-left: 5em;
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #botao-contato {
+    font-size: 3em;
+  }
+
+  #sobre-mim #iconeskill a {
+    font-size: 2em;
+    padding: 0;
+  }
+
+  .borda-redonda{
+    margin-top: 10em;
+    margin-left: 5em;
+    width: 250px;
+  }
+
+  #home h1 {
+    font-size: 2em;
+  }
+
+  #home p, h4 {
+    color: rgb(201, 194, 231);
+    font-size: 1.6em;  
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #home h1 {
+    font-size: 2.5em;
+  }
+}
