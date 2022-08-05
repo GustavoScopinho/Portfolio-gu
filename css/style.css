@@ -205,3 +205,39 @@ body {
 #contato h1{ 
   padding-top: 20%;
 }
+
+/* FOOTER */
+footer {
+  background: black;
+  padding: 10px 0px 20px 0px;
+}
+
+footer .navbar-nav a {
+  margin-top: 50px;
+  color: white;
+  font-size: 1em;
+}
+
+footer .navbar-nav a:hover {
+  color: #292795; 
+  text-decoration: none;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  float: right;
+  margin: 0 0.8em ;
+}
+
+footer ul li a{
+  color: white;
+  font-size: 2.5rem;
+}
+
+footer ul li a:hover{
+  color: #7c26f8;
+  transform: scale(3)
+}
