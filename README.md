@@ -1,4 +1,4 @@
-# Portfólio Gustavo Scopinho
-Portfólio feito em HTML,CSS,Bootstrap e Javascript.
+# Portfólio Gustavo Scopinho 💻
+## Portfólio feito em HTML,CSS,Bootstrap e Javascript. 
 
-<a href=“http://gustavoscopinho.com/“>gustavoscopinho.com</a>
+http://gustavoscopinho.com/
