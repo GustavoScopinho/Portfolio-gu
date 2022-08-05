@@ -1,0 +1,16 @@
+body, html, #home, #projetos{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+*, html {
+  scroll-behavior: smooth !important;
+}
+
+body::-webkit-scrollbar {   
+  background: #12121d ; 
+}
+
+body::-webkit-scrollbar-thumb {   
+  background-color: rgb(201, 194, 231);  
+}
